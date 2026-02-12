@@ -1,0 +1,31 @@
+{
+  "name": "piterpan",
+  "version": "1.0.0",
+  "description": "este proyecto es un proyecto",
+  "keywords": [
+    "node",
+    "example",
+    "student"
+  ],
+  "homepage": "https://github.com/Zozoi-art/node-example#readme",
+  "bugs": {
+    "url": "https://github.com/Zozoi-art/node-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zozoi-art/node-example.git"
+  },
+  "license": "ISC",
+  "author": "zozoi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0"
+  }
+}
