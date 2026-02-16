@@ -2,152 +2,77 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Perfil</title>
+    <title>Mi Perfil</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        * {
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            background-color: #d9d9d9;
-            display: flex;
-            justify-content: center;
-            padding: 40px;
-        }
-
-        .contenedor {
-            width: 900px;
-            background: #e5e5e5;
-            border: 2px solid #333;
-            border-radius: 15px;
-            overflow: hidden;
-        }
-
-        .header {
-            text-align: center;
-            padding: 20px;
-            font-size: 24px;
-            border-bottom: 2px solid #333;
-            background: #ddd;
-        }
-
-        .contenido {
-            display: flex;
-        }
-
-        /* PANEL IZQUIERDO */
-        .lado-izq {
-            width: 30%;
-            border-right: 2px solid #333;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .foto {
-            width: 150px;
-            height: 150px;
-            border: 2px solid #333;
-            border-radius: 50%;
-            margin: 0 auto 20px;
-            background-color: #ccc;
-        }
-
-        .frase {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-
-        /* PANEL DERECHO */
-        .lado-der {
-            width: 70%;
-            padding: 20px;
-        }
-
-        .gustos h2 {
-            margin-bottom: 10px;
-        }
-
-        .punto {
-            width: 20px;
-            height: 20px;
-            background-color: black;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-
-        .comidas {
-            margin-top: 30px;
-        }
-
-        .tabla-comidas {
-            border: 2px solid #333;
-            border-radius: 10px;
-            padding: 10px;
-            margin-top: 10px;
-        }
-
-        .encabezados {
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 15px;
-        }
-
-        .encabezados div {
-            border: 2px solid #333;
-            padding: 8px 15px;
-            border-radius: 10px;
-            background: #ddd;
-        }
-
-        .fila {
-            border: 2px solid #333;
-            display: inline-block;
-            padding: 5px 15px;
-            border-radius: 10px;
-            background: #ddd;
-        }
-    </style>
 </head>
 <body>
 
     <div class="contenedor">
-        <div class="header">Nombre</div>
+
+        <!-- ENCABEZADO -->
+        <header class="header">
+            <h1>Nombre Aquí</h1>
+        </header>
 
         <div class="contenido">
-            
+
             <!-- LADO IZQUIERDO -->
-            <div class="lado-izq">
-                <div class="foto"></div>
-                <div class="frase">Frase</div>
-            </div>
+            <aside class="perfil">
+                
+                <div class="foto">
+                    <!-- Aquí puedes poner una imagen -->
+                    <!-- <img src="tu-foto.jpg" alt="Foto de perfil"> -->
+                </div>
+
+                <p class="frase">
+                    Aquí va tu frase favorita
+                </p>
+
+            </aside>
+
 
             <!-- LADO DERECHO -->
-            <div class="lado-der">
-                
-                <div class="gustos">
+            <main class="informacion">
+
+                <!-- GUSTOS -->
+                <section class="gustos">
                     <h2>Cosas que te gustan</h2>
-                    <div class="punto"></div>
-                    <div class="punto"></div>
-                </div>
+                    <ul>
+                        <li>Ejemplo 1</li>
+                        <li>Ejemplo 2</li>
+                    </ul>
+                </section>
 
-                <div class="comidas">
+
+                <!-- COMIDAS -->
+                <section class="comidas">
                     <h2>Comidas</h2>
-                    <div class="tabla-comidas">
-                        <div class="encabezados">
-                            <div>Proteína</div>
-                            <div>Grasas</div>
-                            <div>CarboH.</div>
-                        </div>
 
-                        <div class="fila">desayuno</div>
-                    </div>
-                </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Momento</th>
+                                <th>Proteína</th>
+                                <th>Grasas</th>
+                                <th>CarboH.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Desayuno</td>
+                                <td>Aquí</td>
+                                <td>Aquí</td>
+                                <td>Aquí</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-            </div>
+                </section>
+
+            </main>
 
         </div>
+
     </div>
 
 </body>
