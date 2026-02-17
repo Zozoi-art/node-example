@@ -12,7 +12,7 @@ body {
     padding: 40px;
 }
 
-.contenedor {
+.container {
     width: 900px;
     background-color: #e6e6e6;
     border: 2px solid #333;
@@ -27,19 +27,19 @@ body {
     background-color: #ddd;
 }
 
-.contenido {
+.content {
     display: flex;
 }
 
 /* LADO IZQUIERDO */
-.perfil {
+.profile {
     width: 30%;
     border-right: 2px solid #333;
     padding: 20px;
     text-align: center;
 }
 
-.foto {
+.photo {
     width: 150px;
     height: 150px;
     border: 2px solid #333;
@@ -52,45 +52,45 @@ body {
     overflow: hidden;
 }
 
-.foto img {
+.photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.frase {
+.phrase {
     font-size: 18px;
     margin-top: 10px;
 }
 
 /* LADO DERECHO */
-.informacion {
+.information {
     width: 70%;
     padding: 20px;
 }
 
-.gustos {
+.tastes {
     margin-bottom: 40px;
 }
 
-.gustos ul {
+.tastes ul {
     margin-top: 10px;
     padding-left: 20px;
 }
 
-.comidas table {
+.meals table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
 
-.comidas th,
-.comidas td {
+.meals th,
+.meals td {
     border: 2px solid #333;
     padding: 8px;
     text-align: center;
 }
 
-.comidas th {
+.meals th {
     background-color: #ddd;
 }
